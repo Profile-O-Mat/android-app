@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/to_left_in.xml",
+        "source": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/res/anim/to_left_in.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/to_right_out.xml",
+        "source": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/res/anim/to_right_out.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/to_right_in.xml",
+        "source": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/res/anim/to_right_in.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/to_left_out.xml",
+        "source": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/res/anim/to_left_out.xml"
+    },
+    {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/anim/abc_slide_in_bottom.xml"
+    }
+]

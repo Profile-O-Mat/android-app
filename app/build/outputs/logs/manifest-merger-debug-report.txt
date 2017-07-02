@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/torben/.android/build-cache/3008eb17916edeb4d7763414b67d9f2007eaa19e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/torben/.android/build-cache/7b82739bbb6e9d49a1424ee3f3972b653b95811e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/torben/.android/build-cache/22906fccc5d8c9cac3ce46462cf362de92af4f5e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/torben/.android/build-cache/a12c9a8d76b40e4e1999076affb786d2a3aacabb/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/torben/.android/build-cache/8df963b6d8a6ba0d80f27ece020b0e4bc8185b55/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/torben/.android/build-cache/8c27d356518807dea6d1a98d3eeb3785fb347014/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/torben/.android/build-cache/40e3f9d0939a06c8a394c58a8eca67168f3c9962/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/torben/.android/build-cache/e56b23160e3d598d9e586f0d30ac07354bafe0da/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/torben/.android/build-cache/c732f124c90584b7ad27ca50578815a7c22afea3/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:11:9-40
+activity#de.torbenwetter.profile_o_mat.Main
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:screenOrientation
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:13:13-33
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:18:27-74
+activity#de.torbenwetter.profile_o_mat.SelectTwitter
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:21:9-23:52
+	android:screenOrientation
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:22:13-42
+uses-sdk
+INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/torben/.android/build-cache/3008eb17916edeb4d7763414b67d9f2007eaa19e/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/torben/.android/build-cache/7b82739bbb6e9d49a1424ee3f3972b653b95811e/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/torben/.android/build-cache/22906fccc5d8c9cac3ce46462cf362de92af4f5e/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/torben/.android/build-cache/a12c9a8d76b40e4e1999076affb786d2a3aacabb/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/torben/.android/build-cache/8df963b6d8a6ba0d80f27ece020b0e4bc8185b55/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/torben/.android/build-cache/8c27d356518807dea6d1a98d3eeb3785fb347014/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/torben/.android/build-cache/40e3f9d0939a06c8a394c58a8eca67168f3c9962/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/torben/.android/build-cache/e56b23160e3d598d9e586f0d30ac07354bafe0da/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/torben/.android/build-cache/c732f124c90584b7ad27ca50578815a7c22afea3/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/torben/.android/build-cache/3008eb17916edeb4d7763414b67d9f2007eaa19e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/torben/.android/build-cache/7b82739bbb6e9d49a1424ee3f3972b653b95811e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/torben/.android/build-cache/22906fccc5d8c9cac3ce46462cf362de92af4f5e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/torben/.android/build-cache/a12c9a8d76b40e4e1999076affb786d2a3aacabb/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/torben/.android/build-cache/8df963b6d8a6ba0d80f27ece020b0e4bc8185b55/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/torben/.android/build-cache/8c27d356518807dea6d1a98d3eeb3785fb347014/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/torben/.android/build-cache/40e3f9d0939a06c8a394c58a8eca67168f3c9962/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/torben/.android/build-cache/e56b23160e3d598d9e586f0d30ac07354bafe0da/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:26:9-47
