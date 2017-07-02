@@ -2,11 +2,14 @@ package de.torbenwetter.profile_o_mat;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Point;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -20,6 +23,8 @@ import java.net.URL;
 
 public class Main extends AppCompatActivity {
 
+    static final Point size = new Point();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +32,9 @@ public class Main extends AppCompatActivity {
         if (getSupportActionBar() != null)
             getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
+
+        final Display display = getWindowManager().getDefaultDisplay();
+        display.getSize(size);
 
         final TextView headerView = (TextView) findViewById(R.id.header);
         headerView.setTypeface(Typeface.createFromAsset(getAssets(), "roboto-thin.ttf"));
@@ -42,7 +50,14 @@ public class Main extends AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String username = input.getText().toString();
+                // Tastatur schließen
+                final View theView = getCurrentFocus();
+                if (theView != null) {
+                    final InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(theView.getWindowToken(), 0);
+                }
+
+                final String username = input.getText().toString().trim();
                 if (!username.isEmpty()) {
                     new Thread(new Runnable() {
                         @Override
@@ -67,6 +82,9 @@ public class Main extends AppCompatActivity {
                             }
                         }
                     }).start();
+                } else {
+                    input.setText("");
+                    Toast.makeText(Main.this, "Please type in a twitter name.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -79,7 +97,7 @@ public class Main extends AppCompatActivity {
     }
 
     private Boolean twitterNameExists(String twitterName) {
-        final String pageContent = getPageContent("https://twitter.com/" + twitterName);
+        final String pageContent = getPageContent("https://twitter.com/" + twitterName.toLowerCase());
         if (pageContent != null) {
             final String title = pageContent.substring(pageContent.indexOf("<title>") + "<title>".length(), pageContent.indexOf("</title>"));
             return !title.equals("Twitter / ?");
@@ -87,7 +105,7 @@ public class Main extends AppCompatActivity {
         return false;
     }
 
-    private String getPageContent(String link) {
+    static String getPageContent(String link) {
         try {
             final BufferedReader br = getBufferedReader(link);
             if (br != null) {
@@ -105,7 +123,7 @@ public class Main extends AppCompatActivity {
         return null;
     }
 
-    private BufferedReader getBufferedReader(String link) {
+    private static BufferedReader getBufferedReader(String link) {
         try {
             final URL url = new URL(link);
             final HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
