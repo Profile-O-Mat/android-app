@@ -3,7 +3,7 @@
     package="de.torbenwetter.profile_o_mat.test" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="16"
         android:targetSdkVersion="26" />
 
     <instrumentation

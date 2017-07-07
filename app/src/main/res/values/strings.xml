@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Profile-O-Mat</string>
-    <string name="startText">Type in a twitter name to get his political orientation.</string>
+    <string name="startText">Gib einen Twitternamen ein und wir finden die passende Partei!</string>
     <string name="startButton">Senden</string>
-    <string name="twitter_name">\@Username</string>
+    <string name="twitter_name">\@Twittername</string>
+    <string name="infoText">(Es werden nur Accounts mit deutschsprachigen Tweets unterstützt.)</string>
+    <string name="nameNotExist">Dieser Twittername existiert nicht.</string>
+    <string name="internalServerError">Interner Server-Fehler.</string>
+    <string name="loading">Lade...</string>
 </resources>

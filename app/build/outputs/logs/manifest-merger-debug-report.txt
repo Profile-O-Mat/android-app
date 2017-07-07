@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-
 	android:name
 		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:7:5-26:19
+ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:7:5-23:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/torben/.android/build-cache/3008eb17916edeb4d7763414b67d9f2007eaa19e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/torben/.android/build-cache/7b82739bbb6e9d49a1424ee3f3972b653b95811e/output/AndroidManifest.xml:29:5-20
@@ -57,12 +57,6 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
 		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:20:27-74
-activity#de.torbenwetter.profile_o_mat.SelectTwitter
-ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:23:9-25:52
-	android:screenOrientation
-		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:25:13-49
-	android:name
-		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:24:13-42
 uses-sdk
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/AndroidManifest.xml:21:5-23:78

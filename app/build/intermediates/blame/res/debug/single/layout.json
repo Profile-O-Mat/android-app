@@ -60,6 +60,10 @@
         "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/layout/activity_show_result.xml",
+        "source": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/res/layout/activity_show_result.xml"
+    },
+    {
         "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/layout/select_dialog_item_material.xml"
     },
@@ -146,10 +150,6 @@
     {
         "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/home/torben/.android/build-cache/f646772c01b7226cb091661ced1b8bfb59abf719/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/layout/activity_select_twitter.xml",
-        "source": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/res/layout/activity_select_twitter.xml"
     },
     {
         "merged": "/home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
