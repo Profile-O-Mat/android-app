@@ -2293,18 +2293,25 @@ containing a value of this type.
         public static final int abc_vector_test=0x7f020052;
         public static final int edittext_bottom_line=0x7f020053;
         public static final int graph_top_bottom_line=0x7f020054;
-        public static final int notification_action_background=0x7f020055;
-        public static final int notification_bg=0x7f020056;
-        public static final int notification_bg_low=0x7f020057;
-        public static final int notification_bg_low_normal=0x7f020058;
-        public static final int notification_bg_low_pressed=0x7f020059;
-        public static final int notification_bg_normal=0x7f02005a;
-        public static final int notification_bg_normal_pressed=0x7f02005b;
-        public static final int notification_icon_background=0x7f02005c;
-        public static final int notification_template_icon_bg=0x7f02005f;
-        public static final int notification_template_icon_low_bg=0x7f020060;
-        public static final int notification_tile_bg=0x7f02005d;
-        public static final int notify_panel_notification_icon_bg=0x7f02005e;
+        public static final int ic_check_white_48dp=0x7f020055;
+        public static final int ic_clear_white_48dp=0x7f020056;
+        public static final int ic_error_outline_white_48dp=0x7f020057;
+        public static final int ic_info_outline_white_48dp=0x7f020058;
+        public static final int ic_warning_outline_white=0x7f020059;
+        public static final int ic_warning_white_48dp=0x7f02005a;
+        public static final int notification_action_background=0x7f02005b;
+        public static final int notification_bg=0x7f02005c;
+        public static final int notification_bg_low=0x7f02005d;
+        public static final int notification_bg_low_normal=0x7f02005e;
+        public static final int notification_bg_low_pressed=0x7f02005f;
+        public static final int notification_bg_normal=0x7f020060;
+        public static final int notification_bg_normal_pressed=0x7f020061;
+        public static final int notification_icon_background=0x7f020062;
+        public static final int notification_template_icon_bg=0x7f020066;
+        public static final int notification_template_icon_low_bg=0x7f020067;
+        public static final int notification_tile_bg=0x7f020063;
+        public static final int notify_panel_notification_icon_bg=0x7f020064;
+        public static final int toast_frame=0x7f020065;
     }
     public static final class id {
         public static final int action0=0x7f0b006a;
@@ -2334,7 +2341,7 @@ containing a value of this type.
         public static final int basic=0x7f0b000f;
         public static final int beginning=0x7f0b0022;
         public static final int bottom=0x7f0b002a;
-        public static final int bottomView=0x7f0b0066;
+        public static final int bottomLayout=0x7f0b0066;
         public static final int buttonPanel=0x7f0b0036;
         public static final int cancel_action=0x7f0b006b;
         public static final int chains=0x7f0b0010;
@@ -2424,6 +2431,9 @@ containing a value of this type.
         public static final int title=0x7f0b0035;
         public static final int titleDividerNoCustom=0x7f0b0044;
         public static final int title_template=0x7f0b0042;
+        public static final int toast_icon=0x7f0b007e;
+        public static final int toast_root=0x7f0b007d;
+        public static final int toast_text=0x7f0b007f;
         public static final int top=0x7f0b002b;
         public static final int topPanel=0x7f0b0041;
         public static final int topView=0x7f0b005f;
@@ -2487,6 +2497,7 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f04002c;
         public static final int select_dialog_singlechoice_material=0x7f04002d;
         public static final int support_simple_spinner_dropdown_item=0x7f04002e;
+        public static final int toast_layout=0x7f04002f;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2530,10 +2541,14 @@ containing a value of this type.
         public static final int loading=0x7f060024;
         public static final int nameNotExist=0x7f060025;
         public static final int search_menu_title=0x7f060013;
-        public static final int startButton=0x7f060026;
-        public static final int startText=0x7f060027;
+        public static final int send_to=0x7f060026;
+        public static final int share_button=0x7f060027;
+        public static final int share_message=0x7f060028;
+        public static final int startButton=0x7f060029;
+        public static final int startText=0x7f06002a;
         public static final int status_bar_notification_info_overflow=0x7f060014;
-        public static final int twitter_name=0x7f060028;
+        public static final int toast_message=0x7f06002b;
+        public static final int twitter_name=0x7f06002c;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08009f;

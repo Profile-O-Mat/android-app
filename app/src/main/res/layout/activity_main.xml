@@ -101,9 +101,10 @@
             android:textSize="13sp" />
     </RelativeLayout>
 
-    <View
-        android:id="@+id/bottomView"
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
         android:layout_width="match_parent"
         android:layout_height="0px"
-        android:layout_weight="100" />
+        android:layout_weight="100"
+        android:gravity="center" />
 </LinearLayout>

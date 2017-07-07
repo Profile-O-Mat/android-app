@@ -7,4 +7,7 @@
     <string name="nameNotExist">Dieser Twittername existiert nicht.</string>
     <string name="internalServerError">Interner Server-Fehler.</string>
     <string name="loading">Lade...</string>
+    <string name="share_button">Ergebnis teilen</string>
+    <string name="send_to">Ergebnis teilen..</string>
+    <string name="share_message">Der User @\'username\' sollte \'party\' wählen!\'n\'\'n\'Neugierig?\'n\'Probiere es direkt selbst aus:\'n\'https://profile-o-mat.de</string>
 </resources>
