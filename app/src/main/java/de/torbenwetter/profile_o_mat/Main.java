@@ -59,12 +59,6 @@ import es.dmoral.toasty.Toasty;
 
 public class Main extends AppCompatActivity {
 
-    private static final int REQUEST_EXTERNAL_STORAGE = 1;
-    private static final String[] PERMISSIONS_STORAGE = {
-            Manifest.permission.READ_EXTERNAL_STORAGE,
-            Manifest.permission.WRITE_EXTERNAL_STORAGE
-    };
-
     static final Point size = new Point();
 
     private LinearLayout linearLayout;
@@ -280,7 +274,8 @@ public class Main extends AppCompatActivity {
         });
 
         if (!hasStoragePermissions())
-            ActivityCompat.requestPermissions(Main.this, PERMISSIONS_STORAGE, REQUEST_EXTERNAL_STORAGE);
+            ActivityCompat.requestPermissions(Main.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1 /*REQUEST_EXTERNAL_STORAGE*/);
     }
 
     private boolean partyNeedsArticle(int partyIndex) {
