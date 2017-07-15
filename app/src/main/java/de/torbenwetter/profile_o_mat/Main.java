@@ -275,7 +275,7 @@ public class Main extends AppCompatActivity {
 
         if (!hasStoragePermissions())
             ActivityCompat.requestPermissions(Main.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1 /*REQUEST_EXTERNAL_STORAGE*/);
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1 /* REQUEST_EXTERNAL_STORAGE */);
     }
 
     private boolean partyNeedsArticle(int partyIndex) {
