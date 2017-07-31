@@ -14,6 +14,9 @@ class ValueFormatter implements IAxisValueFormatter {
     @Override
     public String getFormattedValue(float value, AxisBase axis) {
         final int theValue = (int) (value + 0.5);
-        return theValue < values.length ? values[theValue].replace("Bündnis 90\\Die Grünen", "B’90/Grüne") : "Partei";
+        return theValue < values.length ? values[theValue]
+                .replace("Bündnis 90\\Die Grünen", "B’90/Grüne")
+                .replace("piraten", "Piraten")
+                : "Partei";
     }
 }

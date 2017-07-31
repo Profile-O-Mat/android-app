@@ -178,7 +178,13 @@ public class Main extends AppCompatActivity {
                                     return;
                                 }
 
-                                final JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+                                final JsonObject jsonObjectWhole = new JsonParser().parse(content).getAsJsonObject();
+                                final boolean success = jsonObjectWhole.get("success").getAsBoolean();
+                                if (!success) {
+                                    Toasty.error(Main.this, getResources().getString(R.string.internalServerError), Toast.LENGTH_SHORT, true).show();
+                                    return;
+                                }
+                                final JsonObject jsonObject = jsonObjectWhole.get("data").getAsJsonObject();
                                 final String[] parties = jsonKeySet(jsonObject);
                                 final float[] values = new float[parties.length];
                                 for (int i = 0; i < parties.length; i++)
@@ -279,7 +285,7 @@ public class Main extends AppCompatActivity {
     }
 
     private boolean partyNeedsArticle(int partyIndex) {
-        return Arrays.asList(new Integer[]{0, 2, 3, 5}).contains(partyIndex); // TODO: 1., 3., 4. und 6. Partei brauchen "die " im Satz
+        return Arrays.asList(new Integer[]{0, 2, 3, 5, 6}).contains(partyIndex); // TODO: 1., 3., 4., 6. und 7. Partei brauchen "die " im Satz
     }
 
     private int getHighestValueIndex(JsonObject jsonObject) {
@@ -478,7 +484,7 @@ public class Main extends AppCompatActivity {
     }
 
     private int[] getBarColors() {
-        final String[] colorCodes = new String[]{"009DE0", "1FAF12", "FB0F0C", "1B86BA", "DE0202", "E4332D", "CCCCCC"}; // TODO: Die Farben der 7 Parteien
+        final String[] colorCodes = new String[]{"009DE0", "1FAF12", "FB0F0C", "1B86BA", "DE0202", "E4332D", "F68920"}; // TODO: Die Farben der 7 Parteien
         final int[] colors = new int[colorCodes.length];
         for (int i = 0; i < colorCodes.length; i++)
             colors[i] = Color.parseColor("#" + colorCodes[i]);
