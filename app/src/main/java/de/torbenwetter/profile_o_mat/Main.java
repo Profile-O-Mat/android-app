@@ -1,7 +1,6 @@
 package de.torbenwetter.profile_o_mat;
 
 import android.Manifest;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -9,6 +8,7 @@ import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.Typeface;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -23,6 +23,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -62,7 +63,7 @@ public class Main extends AppCompatActivity {
     static final Point size = new Point();
 
     private LinearLayout linearLayout;
-    private ProgressDialog progressDialog;
+    private ProgressBar progressBar;
     private BarChart barChart;
     private View topView;
     private RelativeLayout bottomLayout;
@@ -145,6 +146,7 @@ public class Main extends AppCompatActivity {
 
                         final String realUserName = getRealUserName(pageTitle);
 
+                        final RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progressLayout);
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
@@ -159,10 +161,11 @@ public class Main extends AppCompatActivity {
                                     barChart.invalidate();
                                 }
 
-                                progressDialog = new ProgressDialog(Main.this);
-                                progressDialog.setCancelable(false);
-                                progressDialog.setMessage(getResources().getString(R.string.loading));
-                                progressDialog.show();
+                                progressBar = new ProgressBar(Main.this, null, android.R.attr.progressBarStyleLarge);
+                                final RelativeLayout.LayoutParams progressParams = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+                                progressBar.setLayoutParams(progressParams);
+                                progressLayout.addView(progressBar);
+                                progressBar.setVisibility(View.VISIBLE);
                             }
                         });
 
@@ -170,7 +173,8 @@ public class Main extends AppCompatActivity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                progressDialog.dismiss();
+                                progressBar.setVisibility(View.INVISIBLE);
+                                progressLayout.removeView(progressBar);
                                 requesting = false;
 
                                 if (content == null) {
@@ -290,14 +294,15 @@ public class Main extends AppCompatActivity {
 
     private int getHighestValueIndex(JsonObject jsonObject) {
         final float[] valueSet = jsonValueSet(jsonObject);
-        final float[] values = Arrays.copyOf(valueSet, valueSet.length - 1); // franktionslos wird nicht beachtet
 
-        float highest = values[0];
         int highestIndex = -1;
-        for (int i = 1; i < values.length; i++) {
-            if (values[i] > highest) {
-                highest = values[i];
-                highestIndex = i;
+        if (valueSet.length != 0) {
+            float highest = valueSet[0];
+            for (int i = 1; i < valueSet.length; i++) {
+                if (valueSet[i] > highest) {
+                    highest = valueSet[i];
+                    highestIndex = i;
+                }
             }
         }
 
@@ -392,7 +397,16 @@ public class Main extends AppCompatActivity {
                             if (up && j == 100) {
                                 if (button == null) {
                                     button = new Button(Main.this);
+                                    button.setAllCaps(false);
+                                    button.setTypeface(Typeface.createFromAsset(getAssets(), "roboto-medium.ttf"));
                                     button.setText(getResources().getString(R.string.share_button));
+                                    button.setTextColor(ContextCompat.getColor(Main.this, R.color.colorGreyDark));
+                                    button.setTextSize(dpToPixel(8));
+                                    button.setPadding((int) dpToPixel(10), 0, (int) dpToPixel(2), 0);
+                                    button.setBackground(ContextCompat.getDrawable(Main.this, R.drawable.edittext_bottom_line));
+                                    if (Build.VERSION.SDK_INT >= 21)
+                                        button.setStateListAnimator(null); // In Versionen unter 21 bleibt Schatten bei Button
+                                    button.setCompoundDrawablesWithIntrinsicBounds(null, null, ContextCompat.getDrawable(Main.this, R.mipmap.share_result_icon), null);
                                 }
 
                                 final int highestValueIndex = getHighestValueIndex(jsonObject);
