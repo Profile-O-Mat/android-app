@@ -50,7 +50,6 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -71,6 +70,8 @@ public class Main extends AppCompatActivity {
 
     private static Boolean requesting = false;
     private static Boolean wasFirstTime = false;
+
+    private static List<Integer> needsDie = null;
 
     static int highlightedIndex = -1;
 
@@ -146,6 +147,20 @@ public class Main extends AppCompatActivity {
 
                         final String realUserName = getRealUserName(pageTitle);
 
+                        final String partiesContent = Main.getPageContent("https://profile-o-mat.de/parties.php");
+                        final JsonObject partiesWholeObject = new JsonParser().parse(partiesContent).getAsJsonObject();
+                        final String[] partiesNames = jsonKeySet(partiesWholeObject);
+                        final int partiesAmount = partiesNames.length;
+
+                        final String[] partiesColors = new String[partiesAmount];
+                        needsDie = new ArrayList<>();
+                        for (int i = 0; i < partiesAmount; i++) {
+                            final JsonObject partiesObject = partiesWholeObject.get(partiesNames[i]).getAsJsonObject();
+                            partiesColors[i] = partiesObject.get("color").getAsString();
+                            if (partiesObject.get("die").getAsBoolean())
+                                needsDie.add(i);
+                        }
+
                         final RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progressLayout);
                         runOnUiThread(new Runnable() {
                             @Override
@@ -155,9 +170,9 @@ public class Main extends AppCompatActivity {
 
                                 if (wasFirstTime) {
                                     final List<BarEntry> barEntries = new ArrayList<>();
-                                    for (int i = 0; i < 7; i++) // TODO: 7 = Anzahl der Parteien
+                                    for (int i = 0; i < partiesAmount; i++)
                                         barEntries.add(new BarEntry(i, 0));
-                                    barChart.setData(getBarData(barEntries));
+                                    barChart.setData(getBarData(barEntries, partiesColors));
                                     barChart.invalidate();
                                 }
 
@@ -214,7 +229,7 @@ public class Main extends AppCompatActivity {
                                     animateGraph(true, jsonObject, parties, realUserName);
                                 } else {
                                     final int highestValueIndex = getHighestValueIndex(jsonObject);
-                                    button.setOnClickListener(getOnClickListener(realUserName, partyNeedsArticle(highestValueIndex) ? "die " : "", parties[highestValueIndex]));
+                                    button.setOnClickListener(getOnClickListener(realUserName, partyNeedsArticle(highestValueIndex, needsDie) ? "die " : "", parties[highestValueIndex]));
                                 }
 
                                 barChart.setDragEnabled(false);
@@ -246,7 +261,7 @@ public class Main extends AppCompatActivity {
                                 final List<BarEntry> barEntries = new ArrayList<>();
                                 for (int i = 0; i < values.length; i++)
                                     barEntries.add(new BarEntry(i, values[i] * 100));
-                                barChart.setData(getBarData(barEntries));
+                                barChart.setData(getBarData(barEntries, partiesColors));
 
                                 final XAxis xAxis = barChart.getXAxis();
                                 xAxis.setDrawAxisLine(false);
@@ -288,8 +303,8 @@ public class Main extends AppCompatActivity {
                     Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1 /* REQUEST_EXTERNAL_STORAGE */);
     }
 
-    private boolean partyNeedsArticle(int partyIndex) {
-        return Arrays.asList(new Integer[]{0, 2, 3, 5, 6}).contains(partyIndex); // TODO: 1., 3., 4., 6. und 7. Partei brauchen "die " im Satz
+    private boolean partyNeedsArticle(int partyIndex, List<Integer> needsDie) {
+        return needsDie.contains(partyIndex);
     }
 
     private int getHighestValueIndex(JsonObject jsonObject) {
@@ -353,7 +368,7 @@ public class Main extends AppCompatActivity {
                 while ((inputLine = br.readLine()) != null)
                     content.append(inputLine).append("\n");
                 br.close();
-                return content.toString();
+                return content.toString().trim();
             } else
                 return null;
         } catch (IOException ex) {
@@ -410,7 +425,7 @@ public class Main extends AppCompatActivity {
                                 }
 
                                 final int highestValueIndex = getHighestValueIndex(jsonObject);
-                                button.setOnClickListener(getOnClickListener(realUserName, partyNeedsArticle(highestValueIndex) ? "die " : "", parties[highestValueIndex]));
+                                button.setOnClickListener(getOnClickListener(realUserName, partyNeedsArticle(highestValueIndex, needsDie) ? "die " : "", parties[highestValueIndex]));
                                 bottomLayout.addView(button);
                             }
 
@@ -485,10 +500,10 @@ public class Main extends AppCompatActivity {
         return Bitmap.createBitmap(bitmap, 0, barChart.getTop() + lineWidth, bitmap.getWidth(), barChart.getHeight() - (2 * lineWidth));
     }
 
-    private BarData getBarData(List<BarEntry> barEntries) {
+    private BarData getBarData(List<BarEntry> barEntries, String[] colorCodes) {
         final BarDataSet barDataSet = new BarDataSet(barEntries, "Parteien");
 
-        barDataSet.setColors(getBarColors());
+        barDataSet.setColors(getBarColors(colorCodes));
         barDataSet.setValueTextSize(dpToPixel(3.375f));
         barDataSet.setValueTypeface(Typeface.createFromAsset(getAssets(), "roboto-medium.ttf"));
         barDataSet.setValueTextColor(ContextCompat.getColor(Main.this, R.color.colorBlackLight));
@@ -497,8 +512,7 @@ public class Main extends AppCompatActivity {
         return new BarData(barDataSet);
     }
 
-    private int[] getBarColors() {
-        final String[] colorCodes = new String[]{"009DE0", "1FAF12", "FB0F0C", "1B86BA", "DE0202", "E4332D", "F68920"}; // TODO: Die Farben der 7 Parteien
+    private int[] getBarColors(String[] colorCodes) {
         final int[] colors = new int[colorCodes.length];
         for (int i = 0; i < colorCodes.length; i++)
             colors[i] = Color.parseColor("#" + colorCodes[i]);
