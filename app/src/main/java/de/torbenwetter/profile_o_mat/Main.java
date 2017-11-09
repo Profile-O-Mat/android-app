@@ -148,7 +148,37 @@ public class Main extends AppCompatActivity {
 
                         final String realUserName = getRealUserName(pageTitle);
 
-                        final String partiesContent = Main.getPageContent("https://profile-o-mat.de/parties.php");
+                        final String partiesContent = "{\n" +
+                                "  \"AfD\": {\n" +
+                                "    \"color\": \"009DE0\",\n" +
+                                "    \"die\": true\n" +
+                                "  },\n" +
+                                "  \"Bündnis 90\\\\Die Grünen\": {\n" +
+                                "    \"color\": \"1FAF12\",\n" +
+                                "    \"die\": false\n" +
+                                "  },\n" +
+                                "  \"CDU\": {\n" +
+                                "    \"color\": \"FB0F0C\",\n" +
+                                "    \"die\": true\n" +
+                                "  },\n" +
+                                "  \"CSU\": {\n" +
+                                "    \"color\": \"1B86BA\",\n" +
+                                "    \"die\": true\n" +
+                                "  },\n" +
+                                "  \"Die Linke\": {\n" +
+                                "    \"color\": \"DE0202\",\n" +
+                                "    \"die\": false\n" +
+                                "  },\n" +
+                                "  \"SPD\": {\n" +
+                                "    \"color\": \"E4332D\",\n" +
+                                "    \"die\": true\n" +
+                                "  },\n" +
+                                "  \"piraten\": {\n" +
+                                "    \"color\": \"F68920\",\n" +
+                                "    \"die\": true\n" +
+                                "  }\n" +
+                                "}";
+                        //final String partiesContent = Main.getPageContent("https://profile-o-mat.de/parties.php");
                         final JsonObject partiesWholeObject = new JsonParser().parse(partiesContent).getAsJsonObject();
                         final String[] partiesNames = jsonKeySet(partiesWholeObject);
                         final int partiesAmount = partiesNames.length;
@@ -185,7 +215,20 @@ public class Main extends AppCompatActivity {
                             }
                         });
 
-                        final String content = Main.getPageContent("https://profile-o-mat.de:8080/predict?user=" + realUserName);
+                        final String content = "{\n" +
+                                "\"data\": {\n" +
+                                "\"AfD\": 0.00008642391301104517,\n" +
+                                "\"Bündnis 90\\\\Die Grünen\": 0.40265306010028773,\n" +
+                                "\"CDU\": 0.001353983167633387,\n" +
+                                "\"CSU\": 1.4326372462715368e-9,\n" +
+                                "\"Die Linke\": 0.20239931964089777,\n" +
+                                "\"SPD\": 0.39350669876541483,\n" +
+                                "\"piraten\": 5.129801179535662e-7\n" +
+                                "},\n" +
+                                "\"error\": {},\n" +
+                                "\"success\": true\n" +
+                                "}";
+                        //final String content = Main.getPageContent("https://profile-o-mat.de:8080/predict?user=" + realUserName);
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
