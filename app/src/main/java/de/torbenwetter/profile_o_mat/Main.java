@@ -148,7 +148,7 @@ public class Main extends AppCompatActivity {
 
                         final String realUserName = getRealUserName(pageTitle);
 
-                        final String partiesContent = "{\n" +
+                        /*final String partiesContent = "{\n" +
                                 "  \"AfD\": {\n" +
                                 "    \"color\": \"009DE0\",\n" +
                                 "    \"die\": true\n" +
@@ -177,8 +177,8 @@ public class Main extends AppCompatActivity {
                                 "    \"color\": \"F68920\",\n" +
                                 "    \"die\": true\n" +
                                 "  }\n" +
-                                "}";
-                        //final String partiesContent = Main.getPageContent("https://profile-o-mat.de/parties.php");
+                                "}";*/
+                        final String partiesContent = Main.getPageContent("https://wetter.codes/Profile-O-Mat/parties.php");
                         final JsonObject partiesWholeObject = new JsonParser().parse(partiesContent).getAsJsonObject();
                         final String[] partiesNames = jsonKeySet(partiesWholeObject);
                         final int partiesAmount = partiesNames.length;
