@@ -215,7 +215,7 @@ public class Main extends AppCompatActivity {
                             }
                         });
 
-                        final String content = "{\n" +
+                        /*final String content = "{\n" +
                                 "\"data\": {\n" +
                                 "\"AfD\": 0.00008642391301104517,\n" +
                                 "\"Bündnis 90\\\\Die Grünen\": 0.40265306010028773,\n" +
@@ -227,7 +227,8 @@ public class Main extends AppCompatActivity {
                                 "},\n" +
                                 "\"error\": {},\n" +
                                 "\"success\": true\n" +
-                                "}";
+                                "}";*/
+                        final String content = Main.getPageContent("http://www.profile-o-mat.de:8080/predict?user=" + realUserName);
                         //final String content = Main.getPageContent("https://profile-o-mat.de:8080/predict?user=" + realUserName);
                         runOnUiThread(new Runnable() {
                             @Override
