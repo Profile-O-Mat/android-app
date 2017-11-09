@@ -13,7 +13,7 @@
         android:label="Tests for de.torbenwetter.profile_o_mat"
         android:targetPackage="de.torbenwetter.profile_o_mat" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

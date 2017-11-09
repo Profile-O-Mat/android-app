@@ -112,7 +112,8 @@ public class Main extends AppCompatActivity {
                 final View theView = getCurrentFocus();
                 if (theView != null) {
                     final InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
-                    imm.hideSoftInputFromWindow(theView.getWindowToken(), 0);
+                    if (imm != null)
+                        imm.hideSoftInputFromWindow(theView.getWindowToken(), 0);
                 }
 
                 final String username = input.getText().toString().trim();
@@ -460,9 +461,8 @@ public class Main extends AppCompatActivity {
 
                 final Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_SEND);
-                intent.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.share_message)
-                        .replace("'username'", realUserName).replace("'party'", partyArticle + party)
-                        .replace("'n'", System.getProperty("line.separator")));
+                intent.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.share_message,
+                        realUserName, partyArticle + party, System.getProperty("line.separator")));
                 if (storagePermissions)
                     intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(getScreenshotImage()));
                 intent.setType(storagePermissions ? "*/*" : "text/plain");
