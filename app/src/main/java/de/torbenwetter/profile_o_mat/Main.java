@@ -86,24 +86,24 @@ public class Main extends AppCompatActivity {
         final Display display = getWindowManager().getDefaultDisplay();
         display.getSize(size);
 
-        linearLayout = (LinearLayout) findViewById(R.id.layout);
+        linearLayout = findViewById(R.id.layout);
 
-        final TextView headerView = (TextView) findViewById(R.id.header);
+        final TextView headerView = findViewById(R.id.header);
         headerView.setTypeface(Typeface.createFromAsset(getAssets(), "roboto-thin.ttf"));
 
-        final TextView infoView = (TextView) findViewById(R.id.info);
+        final TextView infoView = findViewById(R.id.info);
         infoView.setTypeface(Typeface.createFromAsset(getAssets(), "roboto-thin.ttf"));
 
-        final TextView infoView2 = (TextView) findViewById(R.id.info2);
+        final TextView infoView2 = findViewById(R.id.info2);
         infoView2.setTypeface(Typeface.createFromAsset(getAssets(), "roboto-thin.ttf"));
 
-        final EditText input = (EditText) findViewById(R.id.input);
+        final EditText input = findViewById(R.id.input);
         input.setTypeface(Typeface.createFromAsset(getAssets(), "roboto-thin.ttf"));
 
         topView = findViewById(R.id.topView);
-        bottomLayout = (RelativeLayout) findViewById(R.id.bottomLayout);
+        bottomLayout = findViewById(R.id.bottomLayout);
 
-        final Button startButton = (Button) findViewById(R.id.startButton);
+        final Button startButton = findViewById(R.id.startButton);
         startButton.setTypeface(Typeface.createFromAsset(getAssets(), "roboto-medium.ttf"));
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -192,7 +192,7 @@ public class Main extends AppCompatActivity {
                                 needsDie.add(i);
                         }
 
-                        final RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progressLayout);
+                        final RelativeLayout progressLayout = findViewById(R.id.progressLayout);
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
