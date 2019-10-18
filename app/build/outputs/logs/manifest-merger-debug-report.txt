@@ -4,34 +4,28 @@ ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [com.github.GrenderG:Toasty:1.2.5] /home/torben/.gradle/caches/transforms-1/files-1.1/Toasty-1.2.5.aar/ab2bbb3c8ad21b23d0f7bca0fea7684c/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0cefaa2c227a2e3065b2d0258f848b19/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/torben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e87a7d90472529699456323547e9a816/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/003660c07396f97e88146ba6e5a56936/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1cb9d91a1bf84d81fa010ce1ad8fc3c4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/635b3d67a5b0cb214aedbe70826e55bc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d9e2e30ac4def413788a6540b2b8e32b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6353128d0a365aa999d37756b420ca49/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f5f16497ecd1c41713d32e1afdbeb750/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1292f9b2c53d053548d04da503592e18/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f859defc7ce37b5f34e6f900c44e0b64/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9f004dbae02f1dd113229d6589555985/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/757c85e8ddd4c0c0b5e75dbb15536bc2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d9944c775390ef48a0ae03d9d1774632/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6abdf5f02ca4dfac605df63412b9155b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c33c81a2338ccf3ea167a4d8a2af6bcb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f36b914ac337f8c9f12e09729885b0bb/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/92cb61d4dd1de7e345560e696dcc6794/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c8b6aa9d53ae0518acb4f7de38579560/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/efe7062e59740e927638dd5d4b252f88/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/fb73865a2eb262ea01c780ae7ca30fdf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/efd4bb35f42b635c2edd44e5914282fb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/8069c4faa6e7f3b5b4407be5b5ee9898/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d8447747f7426a14ec24c7f17ca266e1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8cfbb9031d469fbdde083695daf8e3ec/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2dbd3cb237ff1eac719d799183f6d086/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5a1fd833fb7b753dcfece0b249c0d1f5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1807f65cc73a00299fa403c02b996c31/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.GrenderG:Toasty:1.4.0] /home/torben/.gradle/caches/transforms-2/files-2.1/5845a74270480fbf77562bf35429d456/jetified-Toasty-1.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/torben/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:2:1-24:12
@@ -67,14 +61,14 @@ ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-
 		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:10:22-65
 application
 ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:12:5-22:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/torben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e87a7d90472529699456323547e9a816/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/torben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e87a7d90472529699456323547e9a816/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f36b914ac337f8c9f12e09729885b0bb/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f36b914ac337f8c9f12e09729885b0bb/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/92cb61d4dd1de7e345560e696dcc6794/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/92cb61d4dd1de7e345560e696dcc6794/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/torben/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/torben/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f36b914ac337f8c9f12e09729885b0bb/AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
@@ -107,62 +101,50 @@ uses-sdk
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
-MERGED from [com.github.GrenderG:Toasty:1.2.5] /home/torben/.gradle/caches/transforms-1/files-1.1/Toasty-1.2.5.aar/ab2bbb3c8ad21b23d0f7bca0fea7684c/AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.GrenderG:Toasty:1.2.5] /home/torben/.gradle/caches/transforms-1/files-1.1/Toasty-1.2.5.aar/ab2bbb3c8ad21b23d0f7bca0fea7684c/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0cefaa2c227a2e3065b2d0258f848b19/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0cefaa2c227a2e3065b2d0258f848b19/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/torben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e87a7d90472529699456323547e9a816/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/torben/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e87a7d90472529699456323547e9a816/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/003660c07396f97e88146ba6e5a56936/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/003660c07396f97e88146ba6e5a56936/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1cb9d91a1bf84d81fa010ce1ad8fc3c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/1cb9d91a1bf84d81fa010ce1ad8fc3c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/635b3d67a5b0cb214aedbe70826e55bc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/635b3d67a5b0cb214aedbe70826e55bc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d9e2e30ac4def413788a6540b2b8e32b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d9e2e30ac4def413788a6540b2b8e32b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6353128d0a365aa999d37756b420ca49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6353128d0a365aa999d37756b420ca49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f5f16497ecd1c41713d32e1afdbeb750/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f5f16497ecd1c41713d32e1afdbeb750/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1292f9b2c53d053548d04da503592e18/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1292f9b2c53d053548d04da503592e18/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f859defc7ce37b5f34e6f900c44e0b64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f859defc7ce37b5f34e6f900c44e0b64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9f004dbae02f1dd113229d6589555985/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9f004dbae02f1dd113229d6589555985/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/757c85e8ddd4c0c0b5e75dbb15536bc2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/757c85e8ddd4c0c0b5e75dbb15536bc2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d9944c775390ef48a0ae03d9d1774632/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d9944c775390ef48a0ae03d9d1774632/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6abdf5f02ca4dfac605df63412b9155b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6abdf5f02ca4dfac605df63412b9155b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c33c81a2338ccf3ea167a4d8a2af6bcb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c33c81a2338ccf3ea167a4d8a2af6bcb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f36b914ac337f8c9f12e09729885b0bb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f36b914ac337f8c9f12e09729885b0bb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/92cb61d4dd1de7e345560e696dcc6794/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/92cb61d4dd1de7e345560e696dcc6794/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c8b6aa9d53ae0518acb4f7de38579560/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c8b6aa9d53ae0518acb4f7de38579560/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/efe7062e59740e927638dd5d4b252f88/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/efe7062e59740e927638dd5d4b252f88/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/fb73865a2eb262ea01c780ae7ca30fdf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/fb73865a2eb262ea01c780ae7ca30fdf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/efd4bb35f42b635c2edd44e5914282fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/efd4bb35f42b635c2edd44e5914282fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/8069c4faa6e7f3b5b4407be5b5ee9898/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/8069c4faa6e7f3b5b4407be5b5ee9898/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d8447747f7426a14ec24c7f17ca266e1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d8447747f7426a14ec24c7f17ca266e1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8cfbb9031d469fbdde083695daf8e3ec/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8cfbb9031d469fbdde083695daf8e3ec/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2dbd3cb237ff1eac719d799183f6d086/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2dbd3cb237ff1eac719d799183f6d086/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5a1fd833fb7b753dcfece0b249c0d1f5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/torben/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5a1fd833fb7b753dcfece0b249c0d1f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1807f65cc73a00299fa403c02b996c31/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/torben/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1807f65cc73a00299fa403c02b996c31/AndroidManifest.xml:20:5-44
+MERGED from [com.github.GrenderG:Toasty:1.4.0] /home/torben/.gradle/caches/transforms-2/files-2.1/5845a74270480fbf77562bf35429d456/jetified-Toasty-1.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.4.0] /home/torben/.gradle/caches/transforms-2/files-2.1/5845a74270480fbf77562bf35429d456/jetified-Toasty-1.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/torben/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/torben/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/torben/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/torben/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
 INJECTED from /home/torben/Desktop/Programmieren/Android-Studio-Projekte/Profile-O-Mat/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
